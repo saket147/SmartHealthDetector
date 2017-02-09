@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9354bda3c56b3fad5e4a5e2bd515fcedfc3eaca6">
+        <dex dex="/home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_cb0ce7da95eff2faf75341d4aadf5e649bef6f4e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/socket/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.11.0/840897fcd7223a8143f1d9b6f69714e7be34fd50/okio-1.11.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="840897fcd7223a8143f1d9b6f69714e7be34fd50">
+        <dex dex="/home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.11.0_a24083e62a3397f6092a6ad591154f568b704180/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c64595f01f96f9b82ce75883db571552be4cf7a0">
+        <dex dex="/home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_bbb6a7356be0abc3eff8decbd4992cec6c7e4d53/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/socket/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="/home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.6.0_a28150617f87f46263ffba2a7cb4da0c406c8db9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/socket/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.1.0/aa557d71ead91cbf26e0c316a0f593d168303309/converter-gson-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="/home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/transforms/dex/debug/folders/1000/10/converter-gson-2.1.0_06d81ca217734aa25f23da39bef2fb8c1973a980/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/socket/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="/home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.1.0_18224df46437219f7482b76e765f5cd37a6469c3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/socket/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="/home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.7_903169b89e98b18e5f3b8950e8fea443138abfef/classes.dex" />
+    </item>
+
+</items>
