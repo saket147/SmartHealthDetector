@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Feb 09 19:41:55 IST 2017
+#Thu Feb 09 23:34:36 IST 2017
 2.base=/home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/res/resources-debug.ap_
 5.file=/home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
 5.set=ANDROID_RESOURCE
@@ -20,8 +20,8 @@ count=8
 2.file=/home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/res/resources-debug.ap_/res/layout/activity_main.xml
 6.set=ANDROID_RESOURCE
 0.base=/home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/res/resources-debug.ap_
-3.file=/home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/res/resources-debug.ap_/resources.arsc
+3.file=/home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/res/resources-debug.ap_/res/mipmap-xhdpi-v4/ic_launcher.png
 3.set=ANDROID_RESOURCE
 1.base=/home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/res/resources-debug.ap_
-4.file=/home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/res/resources-debug.ap_/res/mipmap-xhdpi-v4/ic_launcher.png
+4.file=/home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/res/resources-debug.ap_/resources.arsc
 0.set=ANDROID_RESOURCE

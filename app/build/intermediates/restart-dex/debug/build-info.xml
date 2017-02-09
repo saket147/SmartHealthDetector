@@ -5,29 +5,29 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="95831739852351"
+    timestamp="100153714843336"
     token="-3705875111078534225"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="58" />
+        duration="165" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="34" />
+        duration="53" />
     <task
         name="verifier"
-        duration="1" />
+        duration="3" />
 
     <artifact
         location="/home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/outputs/apk/app-debug.apk"
         type="MAIN" />
 
     <build
-        timestamp="95831739852351"
+        timestamp="100153714843336"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/outputs/apk/app-debug.apk"

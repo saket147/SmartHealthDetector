@@ -7,7 +7,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="9354bda3c56b3fad5e4a5e2bd515fcedfc3eaca6">
+        sha1="a2fbfa3e926b4b921e8af0c1a14d1f6d70eb0622">
         <dex dex="/home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_cb0ce7da95eff2faf75341d4aadf5e649bef6f4e/classes.dex" />
     </item>
     <item
@@ -25,7 +25,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="c64595f01f96f9b82ce75883db571552be4cf7a0">
+        sha1="367d587e1592a21eb934166a32c0502dfbf1685a">
         <dex dex="/home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_bbb6a7356be0abc3eff8decbd4992cec6c7e4d53/classes.dex" />
     </item>
     <item
