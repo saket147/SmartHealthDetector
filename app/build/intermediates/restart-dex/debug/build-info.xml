@@ -5,47 +5,33 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="93660390782721"
+    timestamp="95831739852351"
     token="-3705875111078534225"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="58" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="34" />
     <task
         name="verifier"
-        duration="0" />
+        duration="1" />
 
     <artifact
-        location="/home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
-        type="DEX" />
+        location="/home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
 
     <build
-        timestamp="93558430402153"
+        timestamp="95831739852351"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
-    </build>
-    <build
-        timestamp="93601369388369"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/builds/debug/93601369388369/classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="93660390782721"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
-            type="DEX" />
     </build>
 
 </instant-run>
