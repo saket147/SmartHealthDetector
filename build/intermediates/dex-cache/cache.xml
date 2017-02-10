@@ -3,6 +3,33 @@
 
     <item
         is-multidex="true"
+        jar="/home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2acdf154e60fa20fae0ecdec53f41d4ea03623fd">
+        <dex dex="/home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_cb0ce7da95eff2faf75341d4aadf5e649bef6f4e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/socket/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.11.0/840897fcd7223a8143f1d9b6f69714e7be34fd50/okio-1.11.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="840897fcd7223a8143f1d9b6f69714e7be34fd50">
+        <dex dex="/home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.11.0_a24083e62a3397f6092a6ad591154f568b704180/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e8c292ae94ea1d1c71202c0426cfe245a4b91abe">
+        <dex dex="/home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_bbb6a7356be0abc3eff8decbd4992cec6c7e4d53/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/home/socket/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
         jumboMode="true"
         optimize="true"
@@ -30,39 +57,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="da188549001f5fcdb986be8dde94f46432bc4680">
-        <dex dex="/home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_cb0ce7da95eff2faf75341d4aadf5e649bef6f4e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/home/socket/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
         <dex dex="/home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.7_903169b89e98b18e5f3b8950e8fea443138abfef/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/socket/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.11.0/840897fcd7223a8143f1d9b6f69714e7be34fd50/okio-1.11.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="840897fcd7223a8143f1d9b6f69714e7be34fd50">
-        <dex dex="/home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.11.0_a24083e62a3397f6092a6ad591154f568b704180/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="367d587e1592a21eb934166a32c0502dfbf1685a">
-        <dex dex="/home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_bbb6a7356be0abc3eff8decbd4992cec6c7e4d53/classes.dex" />
     </item>
 
 </items>

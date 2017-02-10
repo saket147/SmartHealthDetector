@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/mutliSelectTextVIew"
         android:hint="Enter one"
-        android:ems="10"
+        android:ems="20"
         />
 
     <Button

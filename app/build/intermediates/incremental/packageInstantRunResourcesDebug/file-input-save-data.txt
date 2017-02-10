@@ -1,21 +1,21 @@
 #Internal package file, do not edit.
-#Fri Feb 10 01:15:28 IST 2017
+#Fri Feb 10 06:00:00 IST 2017
 2.base=/home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/res/resources-debug.ap_
-5.file=/home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
+5.file=/home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/res/resources-debug.ap_/res/layout/activity_disease.xml
 5.set=ANDROID_RESOURCE
 3.base=/home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/res/resources-debug.ap_
-6.file=/home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/res/resources-debug.ap_/res/layout/activity_disease.xml
+6.file=/home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
 2.set=ANDROID_RESOURCE
 4.base=/home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/res/resources-debug.ap_
 7.file=/home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/res/resources-debug.ap_/res/mipmap-mdpi-v4/ic_launcher.png
 7.set=ANDROID_RESOURCE
 count=9
-0.file=/home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/res/resources-debug.ap_/res/mipmap-xxhdpi-v4/ic_launcher.png
+0.file=/home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/res/resources-debug.ap_/res/mipmap-xxxhdpi-v4/ic_launcher.png
 5.base=/home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/res/resources-debug.ap_
 8.file=/home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/res/resources-debug.ap_/res/mipmap-hdpi-v4/ic_launcher.png
 4.set=ANDROID_RESOURCE
 6.base=/home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/res/resources-debug.ap_
-1.file=/home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/res/resources-debug.ap_/res/mipmap-xxxhdpi-v4/ic_launcher.png
+1.file=/home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/res/resources-debug.ap_/res/mipmap-xxhdpi-v4/ic_launcher.png
 1.set=ANDROID_RESOURCE
 7.base=/home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/res/resources-debug.ap_
 2.file=/home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/res/resources-debug.ap_/res/layout/activity_main.xml

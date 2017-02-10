@@ -1,5 +1,8 @@
 package com.example.socket.smarthealthdetector;
 
+import org.json.JSONArray;
+
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -9,16 +12,16 @@ import java.util.List;
 public class Disease {
     String name;
     int id;
-    private List<Integer> healthSymptomLocationIDs;
-
-    public Disease(String name,int id){
+    JSONArray hsl;
+    public Disease(String name,int id,JSONArray hsl){
             this.name = name;
             this.id = id;
+        this.hsl = hsl;
     }
-    public Disease(List<Integer> healthSymptomLocationIDs){
+    /*public Disease(List<Integer>[] healthSymptomLocationIDs){
         this.healthSymptomLocationIDs = healthSymptomLocationIDs;
     }
-
+*/
     public int getId() {
         return id;
     }
@@ -27,7 +30,11 @@ public class Disease {
         return name;
     }
 
-    public List<Integer> getHealthSymptomLocationIDs() {
-        return healthSymptomLocationIDs;
+    public JSONArray getHsl() {
+        return hsl;
     }
+
+    /*public void sethealthSymptomLocationIDs(List<Integer> healthSymptomLocationIDs) {
+        return healthSymptomLocationIDs;
+    }*/
 }
