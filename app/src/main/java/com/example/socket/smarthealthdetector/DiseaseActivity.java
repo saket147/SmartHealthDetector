@@ -40,7 +40,7 @@ public class DiseaseActivity extends Activity implements NetworkResponseListener
 
         FetchData fetchData = new FetchData(DiseaseActivity.this,DiseaseActivity.this);
         fetchData.setType_of_request("GET");
-        fetchData.setUrl("https://healthservice.priaid.ch/issues?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6InNha2V0X2t1bWFyX2VkdUBwcmlhaWQuY2giLCJyb2xlIjoiVXNlciIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL3NpZCI6IjIxNiIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvdmVyc2lvbiI6Ijk2IiwiaHR0cDovL2V4YW1wbGUub3JnL2NsYWltcy9saW1pdCI6Ijk5OTk5OTk5OSIsImh0dHA6Ly9leGFtcGxlLm9yZy9jbGFpbXMvbWVtYmVyc2hpcCI6IkJhc2ljIiwiaHR0cDovL2V4YW1wbGUub3JnL2NsYWltcy9sYW5ndWFnZSI6ImVuLWdiIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9leHBpcmF0aW9uIjoiMjA5OS0xMi0zMSIsImh0dHA6Ly9leGFtcGxlLm9yZy9jbGFpbXMvbWVtYmVyc2hpcHN0YXJ0IjoiMjAwMC0wMS0wMSIsImlzcyI6Imh0dHBzOi8vYXV0aHNlcnZpY2UucHJpYWlkLmNoIiwiYXVkIjoiaHR0cHM6Ly9oZWFsdGhzZXJ2aWNlLnByaWFpZC5jaCIsImV4cCI6MTQ4NjY5MTEzMSwibmJmIjoxNDg2NjgzOTMxfQ.smK50dZJD8UzrrnsY_MhaJVf8q-4T85_zjbKNNQSIfw&language=en-gb&format=json");
+        fetchData.setUrl("https://healthservice.priaid.ch/issues?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6InNha2V0X2t1bWFyX2VkdUBwcmlhaWQuY2giLCJyb2xlIjoiVXNlciIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL3NpZCI6IjIxNiIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvdmVyc2lvbiI6Ijk2IiwiaHR0cDovL2V4YW1wbGUub3JnL2NsYWltcy9saW1pdCI6Ijk5OTk5OTk5OSIsImh0dHA6Ly9leGFtcGxlLm9yZy9jbGFpbXMvbWVtYmVyc2hpcCI6IkJhc2ljIiwiaHR0cDovL2V4YW1wbGUub3JnL2NsYWltcy9sYW5ndWFnZSI6ImVuLWdiIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9leHBpcmF0aW9uIjoiMjA5OS0xMi0zMSIsImh0dHA6Ly9leGFtcGxlLm9yZy9jbGFpbXMvbWVtYmVyc2hpcHN0YXJ0IjoiMjAwMC0wMS0wMSIsImlzcyI6Imh0dHBzOi8vYXV0aHNlcnZpY2UucHJpYWlkLmNoIiwiYXVkIjoiaHR0cHM6Ly9oZWFsdGhzZXJ2aWNlLnByaWFpZC5jaCIsImV4cCI6MTQ4NjczMjY5MCwibmJmIjoxNDg2NzI1NDkwfQ.rJkoHws5GAuIP2zrxa2S9EpesQfivc5eR3xcLlMdHZ8&language=en-gb&format=json");
         fetchData.execute();
     }
     @Override
@@ -53,7 +53,7 @@ public class DiseaseActivity extends Activity implements NetworkResponseListener
         Toast.makeText(DiseaseActivity.this,"Rececived data",Toast.LENGTH_SHORT).show();
         Log.d("Received data","Received data "+object);
         try {
-            String finalString = "DiseaseList \n";
+            String finalString = "DiseaseList- \n\t";
             String s = ""+object;
             JSONArray jsonArray = new JSONArray(s);
             for (int i=0;i<jsonArray.length();i++){
@@ -64,9 +64,10 @@ public class DiseaseActivity extends Activity implements NetworkResponseListener
 
             for (int i=0;i<issuesArrayList.size();i++){
                     for(int j=0;j<disease.getHsl().length();j++){
-                        if(((issuesArrayList.get(i).getId())*1.0)==(double)(disease.getHsl().get(j))){
+                    Log.d("Matching ","Matching "+(issuesArrayList.get(i).getId())+"    "+(disease.getHsl().get(j)));
+                        if((double)((issuesArrayList.get(i).getId())*1.0)==(double)(disease.getHsl().get(j))){
                             Log.d("Matched","Matched"+issuesArrayList.get(i).getId());
-                            finalString += issuesArrayList.get(i).getName()+"\n";
+                            finalString += issuesArrayList.get(i).getName()+"\n\t";
                         }
 
 
