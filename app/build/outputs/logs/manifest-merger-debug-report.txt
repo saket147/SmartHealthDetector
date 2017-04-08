@@ -19,6 +19,15 @@ ADDED from /home/socket/AndroidStudioProjects/SmartHealthDetector/app/src/main/A
 		ADDED from /home/socket/AndroidStudioProjects/SmartHealthDetector/app/src/main/AndroidManifest.xml:5:22-64
 application
 ADDED from /home/socket/AndroidStudioProjects/SmartHealthDetector/app/src/main/AndroidManifest.xml:7:5-21:19
+MERGED from [com.android.support:appcompat-v7:25.1.1] /home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.1.1] /home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.1.1] /home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.1] /home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.1] /home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.1] /home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.1.1] /home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.1.1] /home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.1/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-compat:25.1.1] /home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.1/AndroidManifest.xml:25:5-20
 	android:label
 		ADDED from /home/socket/AndroidStudioProjects/SmartHealthDetector/app/src/main/AndroidManifest.xml:10:9-41
 	android:supportsRtl
@@ -44,11 +53,22 @@ ADDED from /home/socket/AndroidStudioProjects/SmartHealthDetector/app/src/main/A
 	android:name
 		ADDED from /home/socket/AndroidStudioProjects/SmartHealthDetector/app/src/main/AndroidManifest.xml:17:27-74
 activity#com.example.socket.smarthealthdetector.DiseaseActivity
-ADDED from /home/socket/AndroidStudioProjects/SmartHealthDetector/app/src/main/AndroidManifest.xml:20:9-62
+ADDED from /home/socket/AndroidStudioProjects/SmartHealthDetector/app/src/main/AndroidManifest.xml:20:9-53
 	android:name
 		ADDED from /home/socket/AndroidStudioProjects/SmartHealthDetector/app/src/main/AndroidManifest.xml:20:19-50
 uses-sdk
 INJECTED from /home/socket/AndroidStudioProjects/SmartHealthDetector/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:25.1.1] /home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.1.1] /home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.1.1] /home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.1/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.1.1] /home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.1/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.1.1] /home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.1/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.1.1] /home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.1/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.1.1] /home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.1.1] /home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.1/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-compat:25.1.1] /home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.1/AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.1.1] /home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
 		INJECTED from /home/socket/AndroidStudioProjects/SmartHealthDetector/app/src/main/AndroidManifest.xml
 		INJECTED from /home/socket/AndroidStudioProjects/SmartHealthDetector/app/src/main/AndroidManifest.xml

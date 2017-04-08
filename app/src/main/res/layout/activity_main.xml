@@ -8,21 +8,23 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#81C784"
     tools:context="com.example.socket.smarthealthdetector.MainActivity">
 
     <AutoCompleteTextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/mutliSelectTextVIew"
-        android:hint="Enter one"
+        android:hint="Enter your symptom"
         android:ems="20"
         />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="check"
+        android:text="CHECK"
         android:id="@+id/check"
+        android:background="#2E7D32"
         android:layout_below="@+id/mutliSelectTextVIew"
         android:layout_centerHorizontal="true" />
 </RelativeLayout>
