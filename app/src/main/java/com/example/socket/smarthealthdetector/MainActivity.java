@@ -37,7 +37,7 @@ public class MainActivity extends Activity implements NetworkResponseListener{
         autoCompleteTextView = (AutoCompleteTextView) findViewById(R.id.mutliSelectTextVIew);
         FetchData fetchData = new FetchData(MainActivity.this,MainActivity.this);
         fetchData.setType_of_request("GET");
-        fetchData.setUrl("https://healthservice.priaid.ch/symptoms/0/man?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6InNha2V0X2t1bWFyX2VkdUBwcmlhaWQuY2giLCJyb2xlIjoiVXNlciIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL3NpZCI6IjIxNiIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvdmVyc2lvbiI6Ijk4IiwiaHR0cDovL2V4YW1wbGUub3JnL2NsYWltcy9saW1pdCI6Ijk5OTk5OTk5OSIsImh0dHA6Ly9leGFtcGxlLm9yZy9jbGFpbXMvbWVtYmVyc2hpcCI6IkJhc2ljIiwiaHR0cDovL2V4YW1wbGUub3JnL2NsYWltcy9sYW5ndWFnZSI6ImVuLWdiIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9leHBpcmF0aW9uIjoiMjA5OS0xMi0zMSIsImh0dHA6Ly9leGFtcGxlLm9yZy9jbGFpbXMvbWVtYmVyc2hpcHN0YXJ0IjoiMjAwMC0wMS0wMSIsImlzcyI6Imh0dHBzOi8vYXV0aHNlcnZpY2UucHJpYWlkLmNoIiwiYXVkIjoiaHR0cHM6Ly9oZWFsdGhzZXJ2aWNlLnByaWFpZC5jaCIsImV4cCI6MTQ5MTY1NjIwNiwibmJmIjoxNDkxNjQ5MDA2fQ.jR67EyVwFGMSeuWK4-c44imQnObDD5yMC-oBm98YYvY&language=en-gb&format=json");
+        fetchData.setUrl("https://api.myjson.com/bins/jdz13");
         fetchData.execute();
         symptomNameList = new ArrayList<>();
         Button check = (Button)findViewById(R.id.check);
