@@ -4,7 +4,8 @@
     android:id="@+id/activity_disease"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.socket.smarthealthdetector.DiseaseActivity">
+    tools:context="com.example.socket.smarthealthdetector.DiseaseActivity"
+    android:orientation="vertical">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -13,5 +14,13 @@
         android:textSize="30sp"
         android:gravity="center"
         />
-
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_margin="100dp"
+        android:layout_gravity="center_horizontal"
+        android:onClick="openDoctors"
+        android:background="@color/fbutton_color_amethyst"
+        android:id="@+id/showDoctors"
+        android:text="Need Prescription" />
 </LinearLayout>
