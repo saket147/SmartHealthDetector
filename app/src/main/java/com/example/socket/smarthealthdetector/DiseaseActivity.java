@@ -1,8 +1,10 @@
 package com.example.socket.smarthealthdetector;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -85,5 +87,9 @@ public class DiseaseActivity extends Activity implements NetworkResponseListener
             e.printStackTrace();
         }
 
+    }
+    public void openDoctors(View v) {
+        Intent i=new Intent(this,DoctorListActivity.class);
+        startActivity(i);
     }
 }

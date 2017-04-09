@@ -2,9 +2,13 @@ package com.example.socket.smarthealthdetector;
 
 import android.content.ContentValues;
 import android.content.Context;
+import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.widget.Toast;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by HP-User on 4/9/2017.
@@ -70,6 +74,26 @@ public class DatabaseHandler extends SQLiteOpenHelper {
         else
             Toast.makeText(mContext, "Something wrong", Toast.LENGTH_SHORT).show();
         db.close(); // Closing database connection
+    }
+    public List<Doctor> getDoctors() {
+        List<Doctor> doctors=new ArrayList<>();
+        String selectQuery = "SELECT  * FROM " + TABLE_DOCTORS;
+        SQLiteDatabase db=this.getWritableDatabase();
+        Cursor cursor=db.rawQuery(selectQuery,null);
+        if (cursor.moveToFirst()) {
+            do {
+                Doctor doctor=new Doctor();
+                doctor.setName(cursor.getString(1));
+                doctor.setAddress(cursor.getString(0));
+                doctor.setContactNo(cursor.getString(2));
+                doctor.setSpeciality(cursor.getString(3));
+                doctors.add(doctor);
+
+            }
+            while (cursor.moveToNext());
+
+        }
+        return doctors;
     }
 
 }

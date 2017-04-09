@@ -16,8 +16,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.socket.smarthealthdetector.MainActivity" >
-        </activity>
+        <activity android:name="com.example.socket.smarthealthdetector.MainActivity" />
         <activity android:name="com.example.socket.smarthealthdetector.DiseaseActivity" />
         <activity android:name="com.example.socket.smarthealthdetector.DoctorRegistartionActivity" />
         <activity android:name="com.example.socket.smarthealthdetector.ChooserActivity" >
@@ -27,6 +26,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.example.socket.smarthealthdetector.DoctorListActivity" />
     </application>
 
 </manifest>

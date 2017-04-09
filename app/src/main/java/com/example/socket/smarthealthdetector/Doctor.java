@@ -14,6 +14,9 @@ public class Doctor {
         return contactNo;
     }
 
+    public Doctor() {
+    }
+
     public Doctor(String name, String contactNo, String address, String speciality) {
         this.name = name;
         this.contactNo = contactNo;
