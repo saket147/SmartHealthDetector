@@ -1,6 +1,10 @@
 [
     {
-        "merged": "/home/socket/AndroidStudioProjects/SmartHealthDetector/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
-        "source": "/home/socket/AndroidStudioProjects/SmartHealthDetector/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\HP-User\\SmartHealth\\SmartHealthDetector\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\HP-User\\SmartHealth\\SmartHealthDetector\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\home\\socket\\AndroidStudioProjects\\SmartHealthDetector\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher.png",
+        "source": "C:\\home\\socket\\AndroidStudioProjects\\SmartHealthDetector\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     }
 ]

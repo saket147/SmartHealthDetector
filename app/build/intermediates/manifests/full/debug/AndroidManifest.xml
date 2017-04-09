@@ -24,6 +24,8 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.socket.smarthealthdetector.DiseaseActivity" />
+        <activity android:name="com.example.socket.smarthealthdetector.DoctorRegistartionActivity" >
+        </activity>
     </application>
 
 </manifest>
