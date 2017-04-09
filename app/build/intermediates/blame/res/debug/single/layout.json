@@ -1,15 +1,15 @@
 [
     {
-        "merged": "C:\\home\\socket\\AndroidStudioProjects\\SmartHealthDetector\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
-        "source": "C:\\home\\socket\\AndroidStudioProjects\\SmartHealthDetector\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\layout\\abc_action_mode_bar.xml"
+        "merged": "C:\\Users\\HP-User\\SmartHealth\\SmartHealthDetector\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\HP-User\\SmartHealth\\SmartHealthDetector\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\layout\\abc_dialog_title_material.xml"
     },
     {
         "merged": "C:\\Users\\HP-User\\SmartHealth\\SmartHealthDetector\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
         "source": "C:\\Users\\HP-User\\SmartHealth\\SmartHealthDetector\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\layout\\notification_template_part_time.xml"
     },
     {
-        "merged": "C:\\Users\\HP-User\\SmartHealth\\SmartHealthDetector\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
-        "source": "C:\\Users\\HP-User\\SmartHealth\\SmartHealthDetector\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\layout\\abc_dialog_title_material.xml"
+        "merged": "C:\\home\\socket\\AndroidStudioProjects\\SmartHealthDetector\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\home\\socket\\AndroidStudioProjects\\SmartHealthDetector\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\layout\\abc_action_mode_bar.xml"
     },
     {
         "merged": "C:\\home\\socket\\AndroidStudioProjects\\SmartHealthDetector\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
@@ -86,6 +86,10 @@
     {
         "merged": "C:\\home\\socket\\AndroidStudioProjects\\SmartHealthDetector\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
         "source": "C:\\home\\socket\\AndroidStudioProjects\\SmartHealthDetector\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP-User\\SmartHealth\\SmartHealthDetector\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_chooser.xml",
+        "source": "C:\\Users\\HP-User\\SmartHealth\\SmartHealthDetector\\app\\src\\main\\res\\layout\\activity_chooser.xml"
     },
     {
         "merged": "C:\\Users\\HP-User\\SmartHealth\\SmartHealthDetector\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",

@@ -17,14 +17,15 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
         <activity android:name="com.example.socket.smarthealthdetector.MainActivity" >
+        </activity>
+        <activity android:name="com.example.socket.smarthealthdetector.DiseaseActivity" />
+        <activity android:name="com.example.socket.smarthealthdetector.DoctorRegistartionActivity" />
+        <activity android:name="com.example.socket.smarthealthdetector.ChooserActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity android:name="com.example.socket.smarthealthdetector.DiseaseActivity" />
-        <activity android:name="com.example.socket.smarthealthdetector.DoctorRegistartionActivity" >
         </activity>
     </application>
 
