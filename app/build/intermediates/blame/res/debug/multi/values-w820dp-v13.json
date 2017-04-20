@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\HP-User\\SmartHealth\\SmartHealthDetector\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+        "outputFile": "/home/socket/SmartHealthDetector/C:\\Users\\HP-User\\SmartHealth\\SmartHealthDetector\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 108
                 },
                 "from": {
-                    "file": "C:\\Users\\HP-User\\SmartHealth\\SmartHealthDetector\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "file": "/home/socket/SmartHealthDetector/C:\\Users\\HP-User\\SmartHealth\\SmartHealthDetector\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -24,7 +24,7 @@
         ]
     },
     {
-        "outputFile": "C:\\home\\socket\\AndroidStudioProjects\\SmartHealthDetector\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+        "outputFile": "/home/socket/SmartHealthDetector/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -35,7 +35,31 @@
                     "endOffset": 108
                 },
                 "from": {
-                    "file": "C:\\home\\socket\\AndroidStudioProjects\\SmartHealthDetector\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "file": "/home/socket/SmartHealthDetector/app/src/main/res/values-w820dp/dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 291,
+                        "endColumn": 57,
+                        "endOffset": 344
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/home/socket/SmartHealthDetector/C:\\home\\socket\\AndroidStudioProjects\\SmartHealthDetector\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "/home/socket/SmartHealthDetector/C:\\home\\socket\\AndroidStudioProjects\\SmartHealthDetector\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

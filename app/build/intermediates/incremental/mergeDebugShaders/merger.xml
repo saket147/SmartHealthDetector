@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="C:\Users\HP-User\SmartHealth\SmartHealthDetector\app\src\main\shaders"/></dataSet><dataSet config="debug"><source path="C:\Users\HP-User\SmartHealth\SmartHealthDetector\app\src\debug\shaders"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/home/socket/SmartHealthDetector/app/src/main/shaders"/></dataSet><dataSet config="debug"><source path="/home/socket/SmartHealthDetector/app/src/debug/shaders"/></dataSet></merger>

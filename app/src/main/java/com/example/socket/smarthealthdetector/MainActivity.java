@@ -1,7 +1,10 @@
 package com.example.socket.smarthealthdetector;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
@@ -19,6 +22,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 import java.util.ArrayList;
 import static android.R.layout.simple_list_item_1;
+import static android.R.layout.simple_list_item_checked;
 
 public class MainActivity extends Activity implements NetworkResponseListener{
     AutoCompleteTextView autoCompleteTextView;
@@ -28,6 +32,8 @@ public class MainActivity extends Activity implements NetworkResponseListener{
     ArrayAdapter<String> adapter;
     ArrayList<Integer> IdList;
     int pos =-1;
+    private Context context;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,7 +41,10 @@ public class MainActivity extends Activity implements NetworkResponseListener{
         diseaseList = new ArrayList<>();
         IdList  = new ArrayList<>();
         autoCompleteTextView = (AutoCompleteTextView) findViewById(R.id.mutliSelectTextVIew);
+        autoCompleteTextView.setDropDownBackgroundResource(R.color.colorAccent);
+        //autoCompleteTextView.setDropDownBackgroundResource();
         FetchData fetchData = new FetchData(MainActivity.this,MainActivity.this);
+        //isNetworkAvailable();
         fetchData.setType_of_request("GET");
         fetchData.setUrl("https://api.myjson.com/bins/jdz13");
         fetchData.execute();
@@ -67,7 +76,18 @@ public class MainActivity extends Activity implements NetworkResponseListener{
 
     @Override
     public void preRequest() {
+        isNetworkAvailable();
+    }
 
+    public boolean isNetworkAvailable() {
+        ConnectivityManager conMgr = (ConnectivityManager) getApplicationContext().getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo netInfo = conMgr.getActiveNetworkInfo();
+
+        if(netInfo == null || !netInfo.isConnected() || !netInfo.isAvailable()){
+            Toast.makeText(context, "No Internet connection!", Toast.LENGTH_LONG).show();
+            return false;
+        }
+        return true;
     }
 
     @Override
@@ -83,7 +103,7 @@ public class MainActivity extends Activity implements NetworkResponseListener{
                 diseaseList.add(disease);
                 symptomNameList.add(jsonObject.getString("Name"));
             }
-            adapter= new ArrayAdapter<>(MainActivity.this,simple_list_item_1,symptomNameList);
+            adapter= new ArrayAdapter<>(MainActivity.this,simple_list_item_checked,symptomNameList);
             autoCompleteTextView.setAdapter(adapter);
 
             for (int i=0;i<diseaseList.size();i++){
