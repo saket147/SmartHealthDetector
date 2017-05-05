@@ -30,7 +30,7 @@ public class ChooserActivity extends AppCompatActivity implements View.OnClickLi
                 break;
             }
             case R.id.doctor: {
-                Intent i = new Intent(this, DoctorRegistartionActivity.class);
+                Intent i = new Intent(this, AdminLogin.class);
                 startActivity(i);
                 break;
             }

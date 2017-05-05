@@ -32,5 +32,5 @@
         android:layout_gravity="center"
         android:id="@+id/doctor"
         android:background="@color/fbutton_color_amethyst"
-        android:text="DOCTOR" />
+        android:text="ADMIN" />
 </LinearLayout>
